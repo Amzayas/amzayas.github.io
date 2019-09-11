@@ -1,25 +1,110 @@
-body{
+body,html{
     padding: 0;
     margin: 0;
     background-color: rgb(189,214,219);
 }
 
-.menubar{
+.menu{
     background-color: rgb(219, 34, 42);
     width: 100vw;
     height: 30px;
     position: fixed;
-
+    top:0;
+    left:0;
 }
 
 .titlelogo{
     background-color: antiquewhite;
     width: 30vw;
     height: 50px;
-    top: 60px;
     margin: auto;
-    position: relative;
+    margin-top: 75px;
+
 }
-.posts{
+
+.acouplewords{
+    background-color: antiquewhite;
+    width: 12vw;
+    margin-top: 60px
+    height: 35px;
+    margin: auto;
+}
+
+.content{
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item{
+    height: 300px;
+    background-color: black;
+    margin-bottom: 1em;
+}
+
+.post{
+    height: 240px;
+    background-color: coral;
+    margin-bottom: 2em;
+}
+
+.image{
+    width: 240px;
+    background-color: burlywood;
+    height: 240px;
+}
+
+.contentbar{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ad2{
+    height: 340px;
+    background-color: crimson;
+}
+
+.newsletterinfo{
+    height: 340px;
+}
+
+.logo{
+    margin-left: 90px;
+    margin-top: 80px;
+    height: 100px;
+    width: 400px;
+    margin: absolute;
+    background-color: blueviolet;
+}
+
+.newslettersearch{
+    height: 60px;
+    width: 200px;
+    background-color: darkgrey;
+    margin-top: 1em;
+    margin-left: 185px;
+}
+
+.ad3{
+    display: block;
+    height: 340px;
+    background-color: chartreuse;
+}
+
+.webinfo{
     
+    margin: auto;
+    margin-top: 2em;
+    height: 1020px;
+    width: 25vw;
+    margin-bottom: 2em;
+    background-color: darkgoldenrod;
 }

@@ -25,7 +25,7 @@ body,html{
 .acouplewords{
     background-color: antiquewhite;
     width: 12vw;
-    margin-top: 60px
+    margin-top: 60px;
     height: 35px;
     margin: auto;
 }
@@ -107,4 +107,67 @@ body,html{
     width: 25vw;
     margin-bottom: 2em;
     background-color: darkgoldenrod;
+}
+
+
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(199, 232, 243);
+}
+
+.topmenubar{
+    background-color: rgb(191, 154, 202);
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.getcardimage{
+    height: 360px;
+    position: relative;
+    background-color: rgb(142, 65, 98);
+    margin-top: 60px;
+}
+
+.catalogsearch{
+    height: 260px;
+    width: 260px;
+    position: absolute;
+    top: 70px;
+    right: 120px;
+    background-color: rgb(65, 57, 62)
+}
+
+.libpromo{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.promo{
+    height: 200px;
+    background-color: rgb(237, 162, 192);
+}
+
+.libcardpromoimage{
+    height: 250px;
+    width: 100vf;
+    position: relative;
+    margin-top: 100px;
+    background-color: rgb(142, 65, 98); 
+}
+
+.getacard{
+    height: 235px;
+    width: 420px;
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    background-color: rgb(65, 57, 62);
 }

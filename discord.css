@@ -1,0 +1,53 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(108, 14, 217);
+}
+
+.menubar{
+    height: 65px;
+    width: 100vw;
+    background-color: rgb(173, 230, 142);
+    z-index: 2;
+}
+
+.search{
+    height: 65px;
+    width: 25vw;
+    background-color: rgb(108, 14, 217);
+    margin-left: 680px;
+    position: absolute;
+}
+
+.promotion{
+    height: 140px;
+    width: 60vw;
+    background-color: rgb(52, 206, 22);
+    margin: auto;
+    position: relative;
+    margin-top: 80px;
+}
+
+.links{
+    width: 45vw;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.downloadlogin{
+    height: 52px;
+    background-color: rgb(236, 213, 250);
+}
+
+.mainimage{
+    height: 590px;
+    width: 100vw;
+    background-color: rgb(216, 253, 205);
+    position: relative;
+    margin: auto;
+    margin-top: -20px;
+}

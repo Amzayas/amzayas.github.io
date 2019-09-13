@@ -8,7 +8,7 @@ body,html{
     height: 65px;
     width: 100vw;
     background-color: rgb(173, 230, 142);
-    z-index: 2;
+    z-index: 3;
 }
 
 .search{
@@ -41,6 +41,7 @@ body,html{
 .downloadlogin{
     height: 52px;
     background-color: rgb(236, 213, 250);
+    z-index: 2;
 }
 
 .mainimage{
@@ -49,5 +50,6 @@ body,html{
     background-color: rgb(216, 253, 205);
     position: relative;
     margin: auto;
-    margin-top: -20px;
+    margin-top: -26px;
+    z-index: 1;
 }

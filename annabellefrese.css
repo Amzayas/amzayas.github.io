@@ -1,0 +1,48 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(201, 219, 186);
+}
+
+.menubar{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(250, 163, 129);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.logosmall{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(220, 219, 168);
+    margin-top: 12px;
+    margin-left: 1200px;
+    position: absolute;
+}
+
+.logolarge{
+    height: 160px;
+    width: 25vw;
+    background-color: rgb(245, 205, 167);
+    margin-top: 20px;
+    margin: 300px;
+    position: relative;
+}
+
+.designlab{
+    height: 70px;
+    width: 18vw;
+    background-color: rgb(245, 205, 167);
+    position: relative;
+}
+
+.designlink{
+    height: 35px;
+    width: 9vw;
+    background-color: rgb(220, 219, 168);
+    position: absolute;
+    margin-top: 17.5px;
+}

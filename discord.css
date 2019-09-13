@@ -80,6 +80,7 @@ body,html{
     grid-template-columns: 1.4fr .6fr;
     grid-column-gap: 10em;
     margin-top: 65px;
+    margin-bottom: 45px;
 }
 
 .trydiscord{

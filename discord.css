@@ -53,3 +53,41 @@ body,html{
     margin-top: -26px;
     z-index: 1;
 }
+
+.infopanel{
+    height: 185px;
+    width: 70vw;
+    margin: auto;
+    position: relative;
+    background-color: rgb(173, 230, 142);
+    margin-top: 130px;
+}
+
+.smalllogo{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+    background-color: rgb(124, 58, 191);
+}
+
+.trysignup{
+    width: 68vw;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.4fr .6fr;
+    grid-column-gap: 10em;
+    margin-top: 65px;
+}
+
+.trydiscord{
+    height: 90px;
+    background-color: rgb(17, 105, 27);
+}
+
+.signup{
+    height: 75px;
+    background-color: rgb(17, 105, 27);
+}

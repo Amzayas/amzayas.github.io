@@ -25,24 +25,28 @@ body,html{
 
 .logolarge{
     height: 160px;
-    width: 25vw;
+    width: 22vw;
     background-color: rgb(245, 205, 167);
-    margin-top: 20px;
-    margin: 300px;
     position: relative;
+    margin-top: 180px;
+    margin-left: 300px; 
 }
 
 .designlab{
-    height: 70px;
-    width: 18vw;
+    height: 80px;
+    width: 14.5vw;
     background-color: rgb(245, 205, 167);
     position: relative;
+    margin-top: 85px;
+    margin-left: 347.5px;
+    margin-bottom: 560px;
 }
 
 .designlink{
-    height: 35px;
-    width: 9vw;
+    height: 30px;
+    width: 7.25vw;
     background-color: rgb(220, 219, 168);
     position: absolute;
-    margin-top: 17.5px;
+    margin-top: 25px;
+    margin-left: 45px;
 }

@@ -1,3 +1,14 @@
 body{
-    background-color: darkviolet;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
+
+.clickbar{
+    width: 15vw;
+    height: 30px;
+    margin-top: 100px;
+    background-color: rgb(251, 86, 7);
+}
+
+

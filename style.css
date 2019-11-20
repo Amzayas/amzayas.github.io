@@ -1,14 +1,83 @@
+@import url("https://use.typekit.net/vli8wve.css");
+
 body{
     background-color: white;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
-.clickbar{
-    width: 15vw;
-    height: 30px;
+.headerbox{
+    width: 60vw;
     margin-top: 100px;
-    background-color: rgb(251, 86, 7);
+    position: relative;
+    display: grid;
+    grid-template-columns: .50fr 1.50fr;
+    grid-column-gap: 1em;
 }
 
+.projecttitlebox{
+    height: 35px;
+    padding-left: 8vw;
+    background-color: rgb(251, 86, 7);
+    margin-top: 10px;
+}
 
+p{
+    margin-top: 10px;
+    font-family: input-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.headername{
+    height: 35px;
+}
+
+.headername p{
+    margin-top: 0px;
+    font-family: input-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+}
+
+.projectparentbox{
+    width: 75vw;
+    height: 550px;
+    margin: auto;
+    display: block;
+    margin-top: 60px;
+    position: relative;
+    overflow: scroll;
+}
+
+.projectgrid{
+    width: 2000px;
+    height: 550px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+}
+
+.projectbox{
+    height: 550px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.9fr .1fr;
+    grid-column-gap: 1em;
+}
+
+.gpageimage{
+    height: 550px;
+    background-color: slateblue;
+}
+
+.shortdesc{
+    width: 550px;
+    position: absolute;
+    transform-origin: top left;
+    transform: rotate(-270deg); 
+    margin-left: 310px;
+}

@@ -44,7 +44,7 @@ p{
 
 .projectparentbox{
     width: 75vw;
-    height: 550px;
+    height: 560px;
     margin: auto;
     display: block;
     margin-top: 60px;
@@ -69,9 +69,40 @@ p{
     grid-column-gap: 1em;
 }
 
-.gpageimage{
+.gpageimage1{
     height: 550px;
-    background-color: slateblue;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.gpageimage2{
+    height: 550px;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.gpageimage3{
+    height: 550px;
+}
+
+.gpageimage4{
+    height: 550px;
+}
+
+.gpageimage5{
+    height: 550px;
+}
+
+.gpageimage6{
+    height: 550px;
 }
 
 .shortdesc{
@@ -80,4 +111,11 @@ p{
     transform-origin: top left;
     transform: rotate(-270deg); 
     margin-left: 310px;
+    font-family: input-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .85em;
+    color: rgb(131, 56, 236);
 }
+
+

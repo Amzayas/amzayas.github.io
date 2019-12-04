@@ -119,3 +119,137 @@ img{
 }
 
 
+/*--- projectpage ---*/
+
+@import url("https://use.typekit.net/vli8wve.css");
+
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerbox{
+    width: 60vw;
+    margin-top: 100px;
+    position: relative;
+    display: grid;
+    grid-template-columns: .50fr 1.50fr;
+    grid-column-gap: 1em;
+}
+
+.pprojecttitlebox{
+    height: 35px;
+    padding-left: 1.5vw;
+    background-color: rgb(251, 86, 7);
+    margin-top: 10px;
+}
+
+p{
+    margin-top: 10px;
+    font-family: input-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .8em;
+}
+
+.headername{
+    height: 35px;
+}
+
+.headername p{
+    margin-top: 0px;
+    font-family: input-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+}
+
+.projecttitle{
+    margin: auto;
+    width: 40vw;
+    position: relative;
+    padding-top: 70px;
+    font-size: 2.2em;
+    line-height: 1.2em;
+}
+
+.projectinfocontainer{
+    width: 70vw;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.2fr .9fr .9fr;
+    grid-column-gap: 1em;
+}
+
+.pleft{
+    position: relative;
+    display: grid;
+    grid-template-rows: 220px 220px 200px;
+    grid-row-gap: 1em;
+}
+
+.pimage1 {
+}
+
+#imageright img{
+    float: right;
+}
+
+
+
+.pmiddle{
+    position: relative;
+    display: grid;
+    grid-template-rows: 330px 330px;
+    grid-row-gap: 1em;
+}
+
+.pright{
+    height: 330px;
+    position: relative;
+}
+
+.pdate{
+    position: absolute;
+    margin-top: 10px;
+    transform-origin: top left;
+    transform: rotate(-270deg); 
+    font-family: input-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .85em;
+    color: rgb(131, 56, 236);
+}
+
+.pdescription{
+    margin-left: 10px;
+}
+
+.pmed{
+    position: absolute;
+    width: 250px;
+    margin-left: 350px;
+    transform-origin: top left;
+    transform: rotate(-270deg); 
+    font-family: input-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .85em;
+    color: rgb(131, 56, 236);
+}
+
+.pdim{
+    position: absolute;
+    width: 250px;
+    margin-left: 380px;
+    transform-origin: top left;
+    transform: rotate(-270deg); 
+    font-family: input-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .85em;
+    color: rgb(131, 56, 236);
+}

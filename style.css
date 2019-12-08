@@ -266,3 +266,24 @@ p{
     margin-top: 10px;
     z-index: 1;
 }
+
+.name1{
+    font-size: 30em;
+    position: relative;
+    display: block;
+    margin-top: -200px;
+    margin-left: -18px;
+}
+
+.biobox{
+    width: 45vw;
+    margin-top: -930px;
+    margin-left: 575px;
+    color: rgb(131, 56, 236);
+}
+
+.name2{
+    font-size: 30em;
+    margin-top: 53px;
+    margin-left: 1069px;
+}

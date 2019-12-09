@@ -119,6 +119,256 @@ img{
 }
 
 
+/*---index tablet---*/
+
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+
+    body{
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .headerbox{
+        width: 60vw;
+        margin-top: 100px;
+        position: relative;
+        display: grid;
+        grid-template-columns: .50fr 1.50fr;
+        grid-column-gap: 1em;
+    }
+    
+    .projecttitlebox{
+        height: 35px;
+        padding-left: 6vw;
+        background-color: cornflowerblue;
+        margin-top: 10px;
+    }
+    
+    p{
+        margin-top: 10px;
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    
+    .headername{
+        height: 35px;
+    }
+    
+    .headername p{
+        margin-top: 0px;
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3em;
+    }
+    
+    .projectparentbox{
+        width: 75vw;
+        height: 560px;
+        margin: auto;
+        display: block;
+        margin-top: 60px;
+        position: relative;
+        overflow: scroll;
+    }
+    
+    .projectgrid{
+        width: 2000px;
+        height: 550px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 1em;
+    }
+    
+    .projectbox{
+        height: 550px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1.9fr .1fr;
+        grid-column-gap: 1em;
+    }
+    
+    .gpageimage1{
+        height: 550px;
+    }
+    
+    img{
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    
+    .gpageimage2{
+        height: 550px;
+    }
+    
+    img{
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    
+    .gpageimage3{
+        height: 550px;
+    }
+    
+    .gpageimage4{
+        height: 550px;
+    }
+    
+    .gpageimage5{
+        height: 550px;
+    }
+    
+    .gpageimage6{
+        height: 550px;
+    }
+    
+    .shortdesc{
+        width: 550px;
+        position: absolute;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        margin-left: 310px;
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236);
+    }
+
+}
+
+/*--- index smartphone ---*/
+
+@media only screen and (max-width: 800px){
+
+    body{
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .headerbox{
+        width: 60vw;
+        margin-top: 100px;
+        margin: auto;
+        position: relative;
+        display: grid;
+        grid-template-columns: .50fr 1.50fr;
+        grid-column-gap: 1em;
+    }
+    
+    .projecttitlebox{
+        height: 35px;
+        background-color: rgb(251, 86, 7);
+        margin-top: 10px;
+    }
+    
+    p{
+        margin-top: 10px;
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    
+    .headername{
+        height: 35px;
+    }
+    
+    .headername p{
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3em;
+        color: black;
+    }
+    
+    .projectparentbox{
+        width: 75vw;
+        height: 560px;
+        margin: auto;
+        display: block;
+        margin-top: 60px;
+        position: relative;
+        overflow: scroll;
+    }
+    
+    .projectgrid{
+        width: 2000px;
+        height: 550px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 1em;
+    }
+    
+    .projectbox{
+        height: 550px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1.9fr .1fr;
+        grid-column-gap: 1em;
+    }
+    
+    .gpageimage1{
+        height: 550px;
+    }
+    
+    img{
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    
+    .gpageimage2{
+        height: 550px;
+    }
+    
+    img{
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    
+    .gpageimage3{
+        height: 550px;
+    }
+    
+    .gpageimage4{
+        height: 550px;
+    }
+    
+    .gpageimage5{
+        height: 550px;
+    }
+    
+    .gpageimage6{
+        height: 550px;
+    }
+    
+    .shortdesc{
+        width: 550px;
+        position: absolute;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        margin-left: 310px;
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236);
+    }
+}
+
+
+
+
 /*--- projectpage ---*/
 
 @import url("https://use.typekit.net/vli8wve.css");
@@ -209,6 +459,13 @@ p{
     grid-row-gap: 1em;
 }
 
+#imagemidtop img{
+    float: bottom;
+}
+
+#imagemidbot img{
+    float: top;
+}
 .pright{
     height: 330px;
     position: relative;
@@ -259,31 +516,49 @@ p{
 
 /*--- landing page ---*/
 
+.body-crop{
+    overflow: hidden;
+    height: 100vw;
+    width: 100vh;
+}
+
 .clickherebox{
     height: 35px;
     padding-left: 6vw;
     background-color: rgb(251, 86, 7);
-    margin-top: 10px;
     z-index: 1;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.clickherebox p{
+    padding-right: 5px;
 }
 
 .name1{
     font-size: 30em;
     position: relative;
     display: block;
-    margin-top: -200px;
-    margin-left: -18px;
+    margin-top: -150px;
+    padding-bottom: -500px;
+}
+
+.name1 p{
+    margin: 0px;
 }
 
 .biobox{
     width: 45vw;
-    margin-top: -930px;
-    margin-left: 575px;
     color: rgb(131, 56, 236);
+    position: absolute;
+    top: 310px;
+    left: 590px;
 }
 
 .name2{
     font-size: 30em;
-    margin-top: 53px;
-    margin-left: 1069px;
+    margin-top: -480px;
+    margin-left: 83vw;
+    margin-bottom: -500px;
 }

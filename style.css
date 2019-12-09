@@ -254,9 +254,9 @@ img{
     }
     
     .headerbox{
-        width: 60vw;
-        margin-top: 100px;
+        width: 80vw;
         margin: auto;
+        margin-top: 80px;
         position: relative;
         display: grid;
         grid-template-columns: .50fr 1.50fr;
@@ -271,10 +271,12 @@ img{
     
     p{
         margin-top: 10px;
+        margin-left: -30px;
         font-family: input-serif, serif;
         font-weight: 400;
         font-style: normal;
         font-size: 1em;
+        text-align: center;
     }
     
     .headername{
@@ -282,10 +284,11 @@ img{
     }
     
     .headername p{
+        margin-top: 8px;
         font-family: input-serif, serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 3em;
+        font-size: 2em;
         color: black;
     }
     
@@ -379,7 +382,7 @@ body{
     padding: 0px;
 }
 
-.headerbox{
+.pheaderbox{
     width: 60vw;
     margin-top: 100px;
     position: relative;
@@ -403,11 +406,11 @@ p{
     font-size: .8em;
 }
 
-.headername{
+.pheadername{
     height: 35px;
 }
 
-.headername p{
+.pheadername p{
     margin-top: 0px;
     font-family: input-serif, serif;
     font-weight: 400;

@@ -393,6 +393,7 @@ body{
 
 .pprojecttitlebox{
     height: 35px;
+    width: 200px;
     padding-left: 1.5vw;
     background-color: rgb(251, 86, 7);
     margin-top: 10px;
@@ -488,6 +489,7 @@ p{
 
 .pdescription{
     margin-left: 10px;
+    font-size: 1em;
 }
 
 .pmed{
@@ -517,6 +519,304 @@ p{
 }
 
 
+/*--- tablet project page ---*/
+
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+
+    body{
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .pheaderbox{
+        width: 60vw;
+        margin-top: 100px;
+        position: relative;
+        display: grid;
+        grid-template-columns: .50fr 1.50fr;
+        grid-column-gap: 1em;
+    }
+    
+    .pprojecttitlebox{
+        height: 35px;
+        width: 200px;
+        padding-left: 1.5vw;
+        background-color: cornflowerblue;
+        margin-top: 10px;
+    }
+    
+    p{
+        margin-top: 10px;
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8em;
+    }
+    
+    .pheadername{
+        height: 35px;
+    }
+    
+    .pheadername p{
+        margin-top: 0px;
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3em;
+    }
+    
+    .projecttitle{
+        margin: auto;
+        width: 40vw;
+        display: block;
+        position: relative;
+        padding-top: 70px;
+        font-size: 2.2em;
+        line-height: 1.2em;
+    }
+    
+    .projectinfocontainer{
+        width: 70vw;
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1.2fr .9fr .9fr;
+        grid-column-gap: 1em;
+    }
+    
+    .pleft{
+        position: relative;
+        display: grid;
+        grid-template-rows: 220px 220px 200px;
+        grid-row-gap: 1em;
+    }
+    
+    .pimage1 {
+    }
+    
+    #imageright img{
+        float: right;
+    }
+    
+    
+    
+    .pmiddle{
+        position: relative;
+        display: grid;
+        grid-template-rows: 330px 330px;
+        grid-row-gap: 1em;
+    }
+    
+    #imagemidtop img{
+        float: bottom;
+    }
+    
+    #imagemidbot img{
+        float: top;
+    }
+    .pright{
+        height: 330px;
+        position: relative;
+    }
+    
+    .pdate{
+        position: absolute;
+        margin-top: 10px;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236);
+    }
+    
+    .pdescription{
+        margin-left: 10px;
+        font-size: .8em;
+    }
+    
+    .pmed{
+        position: absolute;
+        width: 250px;
+        margin-left: 350px;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236);
+    }
+    
+    .pdim{
+        position: absolute;
+        width: 250px;
+        margin-left: 380px;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236);
+    }
+}
+
+/*--- smartphone project page ---*/
+
+@media only screen and (max-width: 800px){
+    
+    body{
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .pheaderbox{
+        width: 60vw;
+        margin-top: 100px;
+        position: relative;
+        display: grid;
+        grid-template-columns: .50fr 1.50fr;
+        grid-column-gap: 1em;
+    }
+    
+    .pprojecttitlebox{
+        height: 35px;
+        padding-left: 1.5vw;
+        background-color: rgb(251, 86, 7);
+        margin-top: 10px;
+    }
+    
+    p{
+        margin-top: 10px;
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8em;
+    }
+    
+    .pheadername{
+        height: 35px;
+    }
+    
+    .pheadername p{
+        margin-top: 0px;
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3em;
+    }
+    
+    .projecttitle{
+        margin: auto;
+        width: 40vw;
+        display: block;
+        position: relative;
+        padding-top: 70px;
+        font-size: 2.2em;
+        line-height: 1.2em;
+    }
+    
+    .projectinfocontainer{
+        width: 70vw;
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1.2fr .9fr .9fr;
+        grid-column-gap: 1em;
+    }
+    
+    .pleft{
+        position: relative;
+        display: grid;
+        grid-template-rows: 220px 220px 200px;
+        grid-row-gap: 1em;
+    }
+    
+    .pimage1 {
+    }
+    
+    #imageright img{
+        float: right;
+    }
+    
+    
+    
+    .pmiddle{
+        position: relative;
+        display: grid;
+        grid-template-rows: 330px 330px;
+        grid-row-gap: 1em;
+    }
+    
+    #imagemidtop img{
+        float: bottom;
+    }
+    
+    #imagemidbot img{
+        float: top;
+    }
+    .pright{
+        height: 330px;
+        position: relative;
+    }
+    
+    .pdate{
+        position: absolute;
+        margin-top: 10px;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236);
+    }
+    
+    .pdescription{
+        margin-left: 10px;
+        font-size: .8em;
+    }
+
+    .pdescription p{
+        text-align: left;
+    }
+    
+    .pmed{
+        position: absolute;
+        width: 250px;
+        margin-left: 350px;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236);
+    }
+    
+    .pdim{
+        position: absolute;
+        width: 250px;
+        margin-left: 380px;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236);
+    }
+}
+
+
 /*--- landing page ---*/
 
 .body-crop{
@@ -526,17 +826,24 @@ p{
 }
 
 .clickherebox{
-    height: 35px;
+    height: 25px;
     padding-left: 6vw;
     background-color: rgb(251, 86, 7);
     z-index: 1;
     position: absolute;
     top: 200px;
     left: 0px;
+    padding-top: 10px;
 }
 
-.clickherebox p{
-    padding-right: 5px;
+.clickherebox a{
+    font-family: input-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: .8em;
+
 }
 
 .name1{
@@ -564,4 +871,121 @@ p{
     margin-top: -480px;
     margin-left: 83vw;
     margin-bottom: -500px;
+}
+
+/*--- landing page tablet ---*/
+
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+    .body-crop{
+        overflow: hidden;
+        height: 100vw;
+        width: 100vh;
+    }
+    
+    .clickherebox{
+        height: 25px;
+        padding-left: 6vw;
+        background-color: rgb(251, 86, 7);
+        z-index: 1;
+        position: absolute;
+        top: -675px;
+        left: 0px;
+    }
+    
+    .clickherebox a{
+        padding-right: 5px;
+    }
+    
+    .name1{
+        font-size: 25em;
+        position: relative;
+        display: block;
+        margin-top: 800px;
+        margin-left: -30px;
+        transform-origin: top right;
+        transform: rotate(-270deg); 
+    }
+    
+    .name1 p{
+        margin: 0px;
+    }
+    
+    .biobox{
+        width: 400px;
+        color: rgb(131, 56, 236);
+        position: absolute;
+        top: 550px;
+        left: 100px;
+    }
+    
+    .name2{
+        font-size: 25em;
+        position: absolute;
+        display: block;
+        margin-top: -725px;
+        margin-left: 175px;
+        margin-right: 400px;
+        transform-origin: top right;
+        transform: rotate(-270deg); 
+    }    
+}
+
+/*--- landing page smartphone ---*/
+
+@media only screen and (max-width: 800px){
+    .body-crop{
+        overflow: hidden;
+        height: 100vw;
+        width: 100vh;
+    }
+    
+    .clickherebox{
+        height: 25px;
+        width: 150px;
+        background-color: rgb(251, 86, 7);
+        display: block;
+        position: absolute;
+        top: -50px;
+        left: -150px;
+    }
+    
+    .clickherebox a{
+        margin-left: 10px;
+        font-size: .8em;
+    }
+    
+    .name1{
+        font-size: 15em;
+        position: relative;
+        display: block;
+        margin-top: 100px;
+        margin-left: -10px;
+        padding-bottom: -500px;
+    }
+    
+    .name1 p{
+        margin: 0px;
+        text-align: left;
+    }
+    
+    .biobox{
+        width: 400px;
+        color: rgb(131, 56, 236);
+        position: absolute;
+        top: 560px;
+        left: 90px;
+        text-align: left;
+        font-size: .9em;
+    }
+
+    .biobox p{
+        text-align: right;
+    }
+    
+    .name2{
+        font-size: 15em;
+        margin-top: 30px;
+        margin-left: 110px;
+        margin-bottom: 0px;
+    }
 }

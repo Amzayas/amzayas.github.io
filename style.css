@@ -642,7 +642,7 @@ p{
     .pmed{
         position: absolute;
         width: 250px;
-        margin-left: 350px;
+        margin-left: 200px;
         transform-origin: top left;
         transform: rotate(-270deg); 
         font-family: input-serif, serif;
@@ -655,7 +655,7 @@ p{
     .pdim{
         position: absolute;
         width: 250px;
-        margin-left: 380px;
+        margin-left: 230px;
         transform-origin: top left;
         transform: rotate(-270deg); 
         font-family: input-serif, serif;

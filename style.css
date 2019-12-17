@@ -396,15 +396,17 @@ body{
     width: 200px;
     padding-left: 1.5vw;
     background-color: rgb(251, 86, 7);
-    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: -10px;
 }
 
-p{
-    margin-top: 10px;
+.pprojecttitlebox a{
     font-family: input-serif, serif;
     font-weight: 400;
     font-style: normal;
     font-size: .8em;
+    margin-left: 20px;
+    color: black;
 }
 
 .pheadername{
@@ -542,8 +544,18 @@ p{
         height: 35px;
         width: 200px;
         padding-left: 1.5vw;
-        background-color: cornflowerblue;
-        margin-top: 10px;
+        background-color: rgb(251, 86, 7);
+        padding-top: 10px;
+        padding-bottom: -10px;
+    }
+
+    .pprojecttitlebox a{
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8em;
+        margin-left: 20px;
+        color: black;
     }
     
     p{
@@ -664,6 +676,7 @@ p{
         font-size: .85em;
         color: rgb(131, 56, 236);
     }
+
 }
 
 /*--- smartphone project page ---*/
@@ -689,15 +702,17 @@ p{
         height: 35px;
         padding-left: 1.5vw;
         background-color: rgb(251, 86, 7);
-        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: -10px;
     }
     
-    p{
-        margin-top: 10px;
+    .pprojecttitlebox a{
         font-family: input-serif, serif;
         font-weight: 400;
         font-style: normal;
         font-size: .8em;
+        margin-left: 20px;
+        color: black;
     }
     
     .pheadername{
@@ -705,30 +720,107 @@ p{
     }
     
     .pheadername p{
-        margin-top: 0px;
+        margin-top: 7px;
+        width: 300px;
         font-family: input-serif, serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 3em;
+        font-size: 2em;
     }
     
     .projecttitle{
-        margin: auto;
-        width: 40vw;
+        margin-left: 85px;
+        width: 60vw;
         display: block;
         position: relative;
         padding-top: 70px;
         font-size: 2.2em;
         line-height: 1.2em;
+        text-align: left;
+    }
+
+    .projecttitle p{
+        text-align: left;
     }
     
     .pdescription{
-        margin: auto;
-        width: 70vw;
+        margin-left: -400px;
+        width: 65vw;
     }
 
     .pdescription p{
         text-align: left;
+        font-size: .85em;
+    }
+
+    .pleft{
+        margin-top: 240px;
+        margin-left: 100px;
+    }
+
+    .pimage1{
+        height: 200px;
+        width: 60vw;
+        margin-top: 40px;
+    }
+
+    .pimage3{
+        height: 200px;
+        width: 60vw;
+        margin-top: 20px;
+    }
+
+    .pimage2{
+        height: 400px;
+        width: 40vw;
+        margin-top: 715px;
+        margin-left: -212px;
+    }
+
+    .pimage4{
+        height: 400px;
+        width: 40vw;
+        margin-top: 655px;
+        margin-left: -212px;
+    }
+
+    .pdate{
+        position: absolute;
+        margin-top: 10px;
+        margin-left: -440px;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236); 
+    }
+
+    .pmed{
+        position: absolute;
+        width: 250px;
+        margin-left: 70px;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236);
+    }
+    
+    .pdim{
+        position: absolute;
+        width: 250px;
+        margin-left: 100px;
+        transform-origin: top left;
+        transform: rotate(-270deg); 
+        font-family: input-serif, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .85em;
+        color: rgb(131, 56, 236);
     }
 }
 
@@ -778,8 +870,8 @@ p{
     width: 45vw;
     color: rgb(131, 56, 236);
     position: absolute;
-    top: 310px;
-    left: 590px;
+    top: 400px;
+    left: 740px;
 }
 
 .name2{
@@ -888,7 +980,7 @@ p{
         width: 400px;
         color: rgb(131, 56, 236);
         position: absolute;
-        top: 560px;
+        top: 660px;
         left: 90px;
         text-align: left;
         font-size: .9em;
